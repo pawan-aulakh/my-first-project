@@ -1,0 +1,32 @@
+//to find the product of two numbers
+#include<iostream.h>
+
+using namespace std;
+
+int main()
+{
+    float a,b,product;
+    cout<<"enter the first number";
+    cin>>a;
+    cout<<"enter the second number";
+    cin>>b;
+    product=a*b;
+    cout<<"the product of two numbers is: "<<product;
+    
+    return 0;
+}    
+
+//to find the size of data types
+#include<iostream.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<sizeof(int)<<"\n";
+    cout<<sizeof(float)<<"\n";
+    cout<<sizeof(char)<<"\n";
+    cout<<sizeof(double);
+    
+    return 0;
+}    
